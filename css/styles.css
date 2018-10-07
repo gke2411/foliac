@@ -1,1 +1,39 @@
-*{}
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@font-face {
+    font-family: 'bigjohn';
+    src: url('../fonts/bigjohn.woff2') format('woff2'),
+         url('../fonts/bigjohn.woff') format('woff'),
+         url('../fonts/bigjohn.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'slimjoe';
+    src: url('../fonts/slimjoe.woff2') format('woff2'),
+         url('../fonts/slimjoe.woff') format('woff'),
+         url('../fonts/slimjoe.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+	height: 100%;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	color: #3c4955;
+	min-height: 100%;
+}
+.section{}
+
+.section--bg{
+	background-color: #3c4955;
+}
+.section--100{
+	min-height: 100vh;
+}
